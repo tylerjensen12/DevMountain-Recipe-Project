@@ -1,0 +1,43 @@
+.title {
+	color: #da7635;
+	font-weight: bolder;
+	padding: 35px;
+	display: flex;
+	align-items: center;
+}
+
+.detail {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	gap: 50px;
+}
+
+.recipe {
+	display: flex;
+	flex-direction: column;
+	border: #3f3f3f;
+	box-shadow: 2px 2px 7px #8d92c3;
+	width: 250px;
+	height: 100%;
+	padding: 15px;
+	border-radius: 3px;
+}
+
+.instr {
+	display: flex;
+	flex-direction: column;
+	border: #3f3f3f;
+	box-shadow: 2px 2px 7px #8d92c3;
+	width: 400px;
+	height: 100%;
+	padding: 15px;
+	border-radius: 3px;
+}
+
+.h2 {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}

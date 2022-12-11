@@ -1,0 +1,27 @@
+.header {
+    height: 60px;
+    background-color: #DA7635;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navtitle {
+    color: white;
+    margin-left: 60px;
+  }
+  
+  .navbtn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    margin-right: 25px;
+    font-size: 24px;
+  }
+  
+  .navbtn:hover {
+    background-color: #d3651c;
+    border-radius: 3px;
+  }

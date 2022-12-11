@@ -1,0 +1,62 @@
+.new {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	display: flex;
+    flex-direction: column;
+    width: 550px;
+	gap: 20px;
+	margin: 25px;
+}
+
+.radios {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+span {
+	display: flex;
+	align-items: center;
+}
+
+.radio {
+	height: 30px;
+	width: 30px;
+}
+
+.inputs {
+	display: flex;
+    justify-content: space-between;
+	height: 45px;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+.info {
+	width: 150px;
+}
+
+.ingredients {
+	display: flex;
+	gap: 50px;
+}
+
+.ingred {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	gap: 10px;
+}
+
+.orbtn {
+	background-color: #DA7635;
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    border: none;
+	margin: 0px auto 0px auto;
+}
